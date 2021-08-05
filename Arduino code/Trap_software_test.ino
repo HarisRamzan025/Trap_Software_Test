@@ -2,6 +2,7 @@
 #include <Adafruit_Sensor.h>
 #include <Wire.h>
 #include <FastLED.h>
+#include <HardwareSerial.h>
 
 Adafruit_MPU6050 mpu;
 HardwareSerial gsmserial(1);
